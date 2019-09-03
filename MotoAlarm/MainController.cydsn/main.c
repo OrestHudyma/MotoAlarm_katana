@@ -390,9 +390,13 @@ CY_ISR(disarm_signal)
 
 CY_ISR(func_signal)
 {
-    // Turn off active sensors
-    sensor_NL_status = SENSOR_NOT_READY;
-    siren_beep(3);
+    CyDelay(SW_GLITCH_FILTER_DELAY);
+    if (Pin_func_Read())
+    {
+        // Turn off active sensors
+        sensor_NL_status = SENSOR_NOT_READY;
+        siren_beep(3);
+    }
     isr_func_ClearPending();
     Pin_func_ClearInterrupt();
 }

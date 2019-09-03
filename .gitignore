@@ -1,6 +1,7 @@
 **/codegentemp/
 **/DP8051/
 **/Generated_Source/
+**/Backup/
 BUILD.log
 *.Orest
 *.ohud
