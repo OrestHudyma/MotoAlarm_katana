@@ -2,6 +2,8 @@
 **/DP8051/
 **/Generated_Source/
 **/Backup/
+**/Debug/
+**/.vs/
 BUILD.log
 *.Orest
 *.ohud
