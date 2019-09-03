@@ -1,0 +1,15 @@
+**/codegentemp/
+**/DP8051/
+**/Generated_Source/
+BUILD.log
+*.Orest
+*.ohud
+*.OHUD
+*.Ohud
+*.cycdx
+*.cyfit
+*.rpt
+*.svd
+*.uvopt
+*.uvproj
+*.html
