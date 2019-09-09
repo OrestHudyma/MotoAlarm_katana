@@ -3,6 +3,7 @@
 **/Generated_Source/
 **/Backup/
 **/Debug/
+**/Release/
 **/.vs/
 BUILD.log
 *.Orest
