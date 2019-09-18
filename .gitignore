@@ -4,6 +4,7 @@
 **/Backup/
 **/Debug/
 **/Release/
+**/Export/
 **/.vs/
 BUILD.log
 *.Orest
